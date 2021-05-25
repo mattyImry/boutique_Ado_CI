@@ -38,8 +38,8 @@ card.addEventListener('change', function (event) {
                 <i class="fa fa-times"></i>
             </span>
             <span>${event.error.message}</span>
-        `
-        $(errorDiv).html(html)
+        `;
+        $(errorDiv).html(html);
 
     } else {
         errorDiv.textContent = '';
